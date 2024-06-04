@@ -6,7 +6,7 @@ Welcome to the "Seeds in Motion" project, a modern rendition of the classic Soko
 
 "Seeds in Motion" is a puzzle game where the player moves boxes to designated spots on a grid. Our version includes a single-player mode with time and move tracking for competitive play.
 
-### Features
+### Features🔍
 
 - Intuitive and engaging user interface.
 - Single-player mode.
@@ -18,7 +18,7 @@ Welcome to the "Seeds in Motion" project, a modern rendition of the classic Soko
 
 The UML and class diagrams illustrate the architecture of the game. The primary classes are `Player`, `Grid`, `BoxMovable`, and several levels.
 
-### Class Descriptions
+### Class Descriptions🔍
 
 1. **Player**: Manages the player's position and movements.
 2. **Grid**: Represents the game grid.
@@ -26,7 +26,7 @@ The UML and class diagrams illustrate the architecture of the game. The primary 
 
 ## Game Logic⭐
 
-### Main Components
+### Main Components🔍
 
 1. **MainPage**: The main menu of the game.
 2. **LevelsGrid**: Manages the game levels.
@@ -35,9 +35,9 @@ The UML and class diagrams illustrate the architecture of the game. The primary 
 5. **BoxMovable**: Handles the movable boxes.
 6. **Grid**: Draws and updates the game grid.
 
-### Detailed Explanation
+### Detailed Explanation🔍
 
-### MainPage
+### MainPage👨🏻‍💻
 
 The `mainPage.py` initializes the game, sets up the display, and manages the main menu interface. It includes buttons for starting single-player games and handles user interactions to navigate through the game options.
 
@@ -76,7 +76,7 @@ def main():
 
 ```
 
-### LevelsGrid
+### LevelsGrid👨🏻‍💻
 
 The `levels_grid.py` manages the different levels in the game, including loading levels, resetting them, and checking for victory conditions.
 
@@ -134,17 +134,17 @@ class Levels:
 
 ## Instructions for Users⭐
 
-1. **Installation**:
+1. **Installation**:🔍
     - Ensure Python and Pygame are installed on your system.
     - Clone the repository from GitHub.
     - Navigate to the project directory.
-2. **Running the Game**:
+2. **Running the Game**:🔍
     - To start the game, run `mainPage.py`.
     - Choose the single-player mode.
-3. **Controls**:
+3. **Controls**:🔍
     - Use arrow keys to move the player.
     - Move boxes to designated spots to complete levels.
-4. **Creating an Executable**:
+4. **Creating an Executable**:🔍
     - Install PyInstaller using `pip install pyinstaller`.
     - Navigate to the project directory in the command prompt.
     - Run the following command to create an executable: `pyinstaller --onefile mainPage.py`.
